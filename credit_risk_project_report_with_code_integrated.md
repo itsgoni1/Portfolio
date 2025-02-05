@@ -59,7 +59,7 @@ print(classification_report(y_test, y_pred))
 - The classification model achieved an accuracy of 80%.
 - Precision, recall, and F1-scores varied between approved and defaulted loans. The recall for defaulted loans (class 1) was relatively low, indicating the model struggled to correctly identify these cases.
 
-![Confusion Matrix](Screenshots/confusion_matrix.png)
+![Confusion Matrix](Screenshots/confusion_matrix.PNG)
 
 ```python
 # Confusion matrix visualization
@@ -94,7 +94,7 @@ print("R2 Score:", r2_score(y_test_i, y_pred_i))
 - The linear regression model achieved an R2 score of 0.822, indicating a strong fit.
 - The mean squared error was 1.71, showing reasonable accuracy in predicting loan interest rates.
 
-![Actual vs. Predicted Interest Rates](Screenshots/actual_vs_predicted_interest_rates.png)
+![Actual vs. Predicted Interest Rates](Screenshots/actual_vs_predicted_interest_rates.PNG)
 
 ```python
 # Scatter plot of actual vs. predicted interest rates
@@ -119,7 +119,7 @@ plt.ylabel("Approval Rate")
 plt.show()
 ```
 
-![Loan Approval Rate by Home Ownership](Screenshots/approval_rate_home_ownership.png)
+![Loan Approval Rate by Home Ownership](Screenshots/approval_rate_home_ownership.PNG)
 
 #### By Loan Intent
 ```python
@@ -134,7 +134,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Loan Approval Rate by Loan Intent](Screenshots/approval_rate_loan_intent.png)
+![Loan Approval Rate by Loan Intent](Screenshots/approval_rate_loan_intent.PNG)
 
 ### Income vs. Loan Amount
 ```python
@@ -154,7 +154,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Income vs. Loan Amount](Screenshots/income_vs_loan_amount.png)
+![Income vs. Loan Amount](Screenshots/income_vs_loan_amount.PNG)
 
 ## Conclusion
 The analysis revealed important factors influencing loan defaults and interest rates. Logistic regression showed moderate success in classifying loan statuses, while linear regression effectively predicted interest rates. Key findings include:
