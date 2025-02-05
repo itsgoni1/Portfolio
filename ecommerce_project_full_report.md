@@ -19,6 +19,8 @@ The dataset consists of e-commerce transaction records with the following column
 - `CustomerID`: Unique customer identifier.
 - `Country`: Country of the customer.
 
+The data was sourced from Kaggle
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
 ---
 
 ### **2. Data Preparation:**
