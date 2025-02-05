@@ -110,7 +110,7 @@ df = df.drop('Country', axis=1)
   - The top patterns include `red retrospot`, `jumbo bag`, and `metal sign`, indicating popular product categories.
   - These patterns help understand customer preferences and frequently marketed product features.
 
-![Frequent Two-Word Patterns](Screenshots/bigram_bar_chart.png)
+![Frequent Two-Word Patterns](Screenshots/bigram_bar_chart.PNG)
 
 ```python
 from nltk.tokenize import word_tokenize
@@ -132,7 +132,7 @@ print(bigram_counts.most_common(10))
   - States like California, Texas, and Florida have higher transaction volumes, consistent with their larger populations and economic activity.
   - This visualization helps identify key markets and potential areas for business expansion.
 
-![Sales Heatmap Across the U.S.](Screenshots/heatmap_us.png)
+![Sales Heatmap Across the U.S.](Screenshots/heatmap_us.PNG)
 
 **3.3 Monthly Sales Chart for 2024:**
 - **Description:** A line chart illustrating the monthly sales trend for 2024.
@@ -141,7 +141,7 @@ print(bigram_counts.most_common(10))
   - There are fluctuations in other months, with lower sales during the early part of the year and recovery in mid-to-late 2024.
   - The trend highlights the importance of seasonal marketing strategies.
 
-![Monthly Sales Chart](Screenshots/sales_line_chart.png)
+![Monthly Sales Chart](Screenshots/sales_line_chart.PNG)
 
 ---
 
