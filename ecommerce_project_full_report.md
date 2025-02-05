@@ -1,7 +1,7 @@
 
 
 
-**E-Commerce Data Analysis and Visualization**
+### **E-Commerce Data Analysis and Visualization**
 
 **Objective:**
 The objective of this project is to analyze and visualize e-commerce data to uncover patterns in sales, geographical distribution, and purchasing trends over time. The analysis includes frequent product word patterns, state-based sales performance, and monthly sales trends, ensuring that seasonal effects like holiday surges are reflected accurately.
