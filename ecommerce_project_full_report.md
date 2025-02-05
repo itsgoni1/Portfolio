@@ -9,6 +9,9 @@ The objective of this project is to analyze and visualize e-commerce data to unc
 ---
 
 ### **1. Data Overview:**
+The data was sourced from Kaggle
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
+
 The dataset consists of e-commerce transaction records with the following columns:
 - `InvoiceNo`: Invoice number for each transaction.
 - `StockCode`: Product identifier.
@@ -19,8 +22,6 @@ The dataset consists of e-commerce transaction records with the following column
 - `CustomerID`: Unique customer identifier.
 - `Country`: Country of the customer.
 
-The data was sourced from Kaggle
-https://www.kaggle.com/datasets/carrie1/ecommerce-data
 ---
 
 ### **2. Data Preparation:**
