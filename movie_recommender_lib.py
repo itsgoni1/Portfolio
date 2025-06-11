@@ -4,11 +4,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import random
 
 
-file_path = r"C:\Users\itsgo\Documents\Movie Reccomender\Expanded_Movie_Recommender_Data__200__Movies_.csv"
-df = pd.read_csv(file_path)
-df.head()
-
-
 preference_map = {"Like": 1, "Neutral": 0, "Dislike": -1}
 genre_columns = [
     "Action", "Adventure", "Animation", "Children's", "Comedy", "Crime",
@@ -31,21 +26,6 @@ for col in ['Gender', 'Age Group', 'Occupation']:
 all_features = genre_columns + ['Gender', 'Age Group', 'Occupation']
 scaler = StandardScaler()
 user_features_scaled = scaler.fit_transform(df_numeric[all_features])
-
-
-age_groups = [
-    "Under 18", "18-24", "25-34", "35-44", 
-    "45-49", "50-55", "56+"
-]
-
-occupations = [
-    "Other", "Academic/Educator", "Artist", "Clerical/Admin", 
-    "College/Grad Student", "Customer Service", "Doctor/Health Care", 
-    "Executive/Managerial", "Farmer", "Homemaker", "K-12 Student", 
-    "Lawyer", "Programmer", "Retired", "Sales/Marketing", 
-    "Scientist", "Self-Employed", "Technician/Engineer", 
-    "Tradesman/Craftsman", "Unemployed", "Writer"
-]
 
 
 def ask_user_preferences():
@@ -120,5 +100,3 @@ def hybrid_recommender():
 
 
 hybrid_recommender()
-
-
